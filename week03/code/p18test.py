@@ -1,28 +1,24 @@
-
+import  logging
+import sys
 import os
 from llama_index.core import Settings
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.llms.openai_like import OpenAILike
 from llama_index.embeddings.dashscope import DashScopeEmbedding, DashScopeTextEmbeddingModels
-api_key=os.getenv("DASHSCOPE_API_KEY")
-print(f"apikey = {api_key[:5]}*****")
-# Traceback (most recent call last):
-#   File "/home/lurui/00ai_engineer/ai_engineer_github202602/week03/code/p18-logging.py", line 8, in <module>
-#     print(f"apikey = {api_key[:5]}*****")
-#                       ~~~~~~~^^^^
-# TypeError: 'NoneType' object is not subscriptable
+
+from dotenv import load_dotenv
+load_dotenv()
 
 # 增加调试日志
 import logging
 import sys
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-logging.getLogger("llama_index").addHandler(logging.StreamHandler(stream=sys.stdout))
+# logging.getLogger("llama_index").addHandler(logging.StreamHandler(stream=sys.stdout))
 
 Settings.llm = OpenAILike(
     model="qwen-plus",
     api_base="https://dashscope.aliyuncs.com/compatible-mode/v1",
-    # api_key=os.getenv("DASHSCOPE_API_KEY"),
-    api_key=api_key,
+    api_key=os.getenv("DASHSCOPE_API_KEY"),
     is_chat_model=True
 )
 

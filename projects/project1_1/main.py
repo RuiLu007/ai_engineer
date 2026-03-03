@@ -68,6 +68,7 @@ def main():
                 if result.get('tools_used'):
                     print(f"🔧 使用工具: {', '.join(result['tools_used'])}")
                 
+                # 测试缓存
                 print(f"⏱️  处理时间: {result['processing_time_ms']:.1f}ms")
                 print()
                 

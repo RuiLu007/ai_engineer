@@ -3,7 +3,9 @@
 """
 import os
 
+from dotenv import load_dotenv
 
+load_dotenv()  # ← 这行会自动读取 .env 并加载到环境变量
 # DashScope配置
 DASHSCOPE_API_KEY = os.getenv("DASHSCOPE_API_KEY", "")
 DASHSCOPE_EMBEDDING_MODEL = "text-embedding-v3"

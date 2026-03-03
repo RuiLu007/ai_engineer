@@ -191,7 +191,7 @@ class EnvironmentSetup:
         print("\n📄 检查数据文件...")
         
         data_files = [
-            "China-City-List-latest.csv"
+            "AMap_adcode_citycode.xlsx"
         ]
         
         missing_files = []
