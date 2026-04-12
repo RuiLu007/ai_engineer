@@ -1,0 +1,668 @@
+[
+  {
+    "splitter_name": "Sentence(size=256, overlap=0)",
+    "num_chunks": 42,
+    "split_time": 0.16,
+    "index_time": 2.62,
+    "query_time": 2.33,
+    "answer": "在反欺诈领域，人工智能能够实时分析交易行为特征并识别异常交易模式，从而有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=0)",
+    "num_chunks": 42,
+    "split_time": 0.01,
+    "index_time": 2.58,
+    "query_time": 2.04,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块和不确定性量化等技术。其中，RAG技术通过将模型与企业内部知识库结合，提升回答的准确性与专业性，从而有效减少幻觉现象。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=0)",
+    "num_chunks": 42,
+    "split_time": 0.01,
+    "index_time": 2.4,
+    "query_time": 1.61,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间，减少幅度超过50%；同时使维护成本降低25%至30%，并延长设备使用寿命20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 0
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=50)",
+    "num_chunks": 48,
+    "split_time": 0.01,
+    "index_time": 2.74,
+    "query_time": 1.59,
+    "answer": "在反欺诈领域，人工智能能够实时分析交易行为特征，识别异常交易模式，从而有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 50
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=50)",
+    "num_chunks": 48,
+    "split_time": 0.01,
+    "index_time": 2.97,
+    "query_time": 3.33,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块、不确定性量化、模型微调（如通过人类反馈强化学习或监督微调），以及结合上下文学习和思维链推理来提升推理的准确性与可解释性。其中，RAG技术通过将模型与外部知识库结合，显著提高回答的事实性与专业性；事实验证模块可对生成内容进行事后核查；不确定性量化有助于识别模型信心不足的输出；而微调和推理策略则从训练和推理机制层面增强模型对齐真实信息的能力。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 50
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=50)",
+    "num_chunks": 48,
+    "split_time": 0.01,
+    "index_time": 3.07,
+    "query_time": 1.94,
+    "answer": "预测性维护能显著降低工厂的非计划停机时间和维护成本，同时延长设备使用寿命。具体而言，实施预测性维护后，设备非计划停机时间可减少50%以上，维护成本降低25%至30%，设备使用寿命延长20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 50
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=128)",
+    "num_chunks": 85,
+    "split_time": 0.01,
+    "index_time": 4.4,
+    "query_time": 1.72,
+    "answer": "在反欺诈领域，人工智能通过机器学习算法实时分析交易行为特征，识别异常交易模式，从而有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 128
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=128)",
+    "num_chunks": 85,
+    "split_time": 0.01,
+    "index_time": 6.62,
+    "query_time": 1.24,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 128
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=256, overlap=128)",
+    "num_chunks": 85,
+    "split_time": 0.01,
+    "index_time": 5.5,
+    "query_time": 1.62,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间（减少50%以上）、降低维护成本（降幅达25%至30%），并延长设备使用寿命（提升20%至40%）。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 128
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=0)",
+    "num_chunks": 20,
+    "split_time": 0.01,
+    "index_time": 1.37,
+    "query_time": 1.64,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征并识别异常模式，能够有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=0)",
+    "num_chunks": 20,
+    "split_time": 0.01,
+    "index_time": 1.38,
+    "query_time": 1.61,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块和不确定性量化等技术。其中，RAG技术通过将模型与外部知识库结合，提升回答的准确性与专业性，从而有效减少幻觉现象。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=0)",
+    "num_chunks": 20,
+    "split_time": 0.01,
+    "index_time": 1.33,
+    "query_time": 2.72,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂可将设备非计划停机时间减少50%以上，维护成本降低25%至30%，同时延长设备使用寿命20%至40%。此外，该策略避免了传统定期维护带来的不必要停机与资源浪费，也规避了故障后维修引发的突发停产和重大损失，从而保障生产的连续性与稳定性。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 0
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=50)",
+    "num_chunks": 21,
+    "split_time": 0.01,
+    "index_time": 1.5,
+    "query_time": 1.86,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征并识别异常模式，能够有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 50
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=50)",
+    "num_chunks": 21,
+    "split_time": 0.01,
+    "index_time": 1.45,
+    "query_time": 2.76,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。其中，RAG通过将模型与外部知识源（如企业内部知识库或权威文档）动态结合，提升回答的准确性与可追溯性；事实验证模块可在生成过程中或之后对关键陈述进行核查，识别并修正错误信息；不确定性量化则帮助模型评估自身输出的可信程度，从而在高风险场景中触发人工审核或提示用户谨慎对待。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 50
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=50)",
+    "num_chunks": 21,
+    "split_time": 0.01,
+    "index_time": 1.5,
+    "query_time": 2.89,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂，设备非计划停机时间可减少50%以上，维护成本降低25%至30%，同时设备使用寿命延长20%至40%。相比传统的定期维护或故障后维修，预测性维护通过分析设备运行数据并利用机器学习算法提前预判潜在故障，从而在故障发生前安排精准维护，避免了不必要的停机和突发性停产带来的损失。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 50
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=128)",
+    "num_chunks": 25,
+    "split_time": 0.01,
+    "index_time": 1.49,
+    "query_time": 1.65,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征和识别异常交易模式，能够显著降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 128
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=128)",
+    "num_chunks": 25,
+    "split_time": 0.01,
+    "index_time": 1.62,
+    "query_time": 1.69,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。其中，RAG技术通过将模型与企业内部知识库结合，提供更准确、专业的回答，从而有效减少幻觉现象。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 128
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=512, overlap=128)",
+    "num_chunks": 25,
+    "split_time": 0.01,
+    "index_time": 1.83,
+    "query_time": 1.78,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂可将设备非计划停机时间减少50%以上，降低维护成本25%至30%，并延长设备使用寿命20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 512,
+      "chunk_overlap": 128
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=0)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.79,
+    "query_time": 3.02,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征并识别异常交易模式，能够有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=0)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.72,
+    "query_time": 2.38,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块和不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=0)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.78,
+    "query_time": 5.67,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂可将设备非计划停机时间减少50%以上，维护成本降低25%至30%，同时延长设备使用寿命20%至40%。这一模式通过分析设备运行数据并利用机器学习算法提前预测故障，在故障发生前安排维护，从而避免了传统定期维护造成的资源浪费和故障后维修引发的突发停产风险。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 0
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=50)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.8,
+    "query_time": 3.2,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征并识别异常交易模式，能够有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 50
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=50)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.78,
+    "query_time": 2.42,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块和不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 50
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=50)",
+    "num_chunks": 10,
+    "split_time": 0.01,
+    "index_time": 0.66,
+    "query_time": 3.56,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂可将设备非计划停机时间减少50%以上，维护成本降低25%至30%，同时延长设备使用寿命20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 50
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=200)",
+    "num_chunks": 11,
+    "split_time": 0.01,
+    "index_time": 0.99,
+    "query_time": 2.82,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征并识别异常模式，能够显著降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可减少约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 200
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=200)",
+    "num_chunks": 11,
+    "split_time": 0.01,
+    "index_time": 1.01,
+    "query_time": 2.0,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 200
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Sentence(size=1024, overlap=200)",
+    "num_chunks": 11,
+    "split_time": 0.01,
+    "index_time": 0.59,
+    "query_time": 3.39,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益。具体而言，实施预测性维护的工厂可将设备非计划停机时间减少50%以上，维护成本降低25%至30%，同时延长设备使用寿命20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 1024,
+      "chunk_overlap": 200
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Token(size=64, overlap=8)",
+    "num_chunks": 453,
+    "split_time": 0.08,
+    "index_time": 26.92,
+    "query_time": 1.74,
+    "answer": "在反欺诈领域，人工智能与机器学习能够识别异常交易模式，有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 64,
+      "chunk_overlap": 8
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Token(size=64, overlap=8)",
+    "num_chunks": 453,
+    "split_time": 0.08,
+    "index_time": 24.14,
+    "query_time": 1.57,
+    "answer": "有效减少“幻觉”（Hallucination）问题是一种已被提及的缓解方法。然而，完全消除幻觉仍然是一个尚未解决的难题。",
+    "context_contains_answer": false,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 64,
+      "chunk_overlap": 8
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Token(size=64, overlap=8)",
+    "num_chunks": 453,
+    "split_time": 0.07,
+    "index_time": 25.48,
+    "query_time": 1.86,
+    "answer": "预测性维护能帮助工厂避免意外停机和巨大损失，通过分析设备运行数据，实现对设备状态的实时监控和故障预测，从而提升设备可靠性、延长使用寿命，并降低维护成本。同时，它支持工厂提供持续性服务，获取稳定收入。",
+    "context_contains_answer": false,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 64,
+      "chunk_overlap": 8
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Token(size=128, overlap=16)",
+    "num_chunks": 123,
+    "split_time": 0.07,
+    "index_time": 5.91,
+    "query_time": 1.9,
+    "answer": "在反欺诈领域，人工智能通过机器学习算法实时分析交易行为特征，识别异常交易模式，从而有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 128,
+      "chunk_overlap": 16
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Token(size=128, overlap=16)",
+    "num_chunks": 123,
+    "split_time": 0.07,
+    "index_time": 7.3,
+    "query_time": 1.76,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块、不确定性量化等技术。此外，将模型与企业内部知识库结合，也能提供更准确、专业的回答，从而有效减少幻觉现象。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 128,
+      "chunk_overlap": 16
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Token(size=128, overlap=16)",
+    "num_chunks": 123,
+    "split_time": 0.07,
+    "index_time": 8.55,
+    "query_time": 1.99,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间（减少50%以上），降低维护成本（降低25%至30%），并延长设备使用寿命（延长20%至40%）。此外，它还能避免突发停产和由此带来的巨大损失，提升运营效率与经济效益。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 128,
+      "chunk_overlap": 16
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "Token(size=256, overlap=32)",
+    "num_chunks": 48,
+    "split_time": 0.02,
+    "index_time": 2.77,
+    "query_time": 1.52,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征和识别异常交易模式，能够有效降低金融欺诈风险。采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 32
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "Token(size=256, overlap=32)",
+    "num_chunks": 48,
+    "split_time": 0.03,
+    "index_time": 3.06,
+    "query_time": 1.64,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。此外，将大语言模型与企业内部知识库结合，也能提供更准确、专业的回答，从而有效减少幻觉现象。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 32
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "Token(size=256, overlap=32)",
+    "num_chunks": 48,
+    "split_time": 0.02,
+    "index_time": 2.76,
+    "query_time": 1.67,
+    "answer": "预测性维护能显著提升工厂的运营效率和经济效益：设备非计划停机时间减少50%以上，维护成本降低25%至30%，设备使用寿命延长20%至40%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 5,
+    "config": {
+      "chunk_size": 256,
+      "chunk_overlap": 32
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=1)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.51,
+    "query_time": 4.61,
+    "answer": "在反欺诈领域，人工智能通过实时分析交易行为特征、识别异常交易模式，能够有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 1
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=1)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.33,
+    "query_time": 9.5,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。其中，RAG通过将模型与外部知识源（如企业内部知识库）结合，提升回答的准确性与依据性；事实验证模块用于对模型生成内容的关键陈述进行交叉核验，识别并修正错误信息；不确定性量化则尝试评估模型输出的可信程度，从而在高风险场景中提示用户谨慎对待低置信度结果。尽管这些方法在一定程度上缓解了幻觉现象，但完全消除幻觉仍是当前尚未解决的难题。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 1
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=1)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.39,
+    "query_time": 4.66,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间（减少50%以上）、维护成本（降低25%至30%），并延长设备使用寿命（提升20%至40%）。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 1
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=3)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.34,
+    "query_time": 4.85,
+    "answer": "在反欺诈领域，人工智能能够实时分析交易行为特征，识别异常交易模式，从而有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 3
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=3)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.35,
+    "query_time": 3.04,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 3
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=3)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.57,
+    "query_time": 4.76,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间（减少50%以上）、维护成本（降低25%至30%），并延长设备使用寿命（提升20%至40%）。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 3
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=5)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.39,
+    "query_time": 4.48,
+    "answer": "在反欺诈领域，人工智能能够实时分析交易行为特征，识别异常交易模式，从而有效降低金融欺诈风险。据统计，采用AI反欺诈系统的金融机构，其欺诈损失可降低约40%至60%。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 5
+    },
+    "question": "金融科技中人工智能在反欺诈领域的效果如何？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=5)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.51,
+    "query_time": 3.08,
+    "answer": "缓解大语言模型幻觉问题的方法包括检索增强生成（RAG）、事实验证模块以及不确定性量化等技术。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 5
+    },
+    "question": "大语言模型的幻觉问题有哪些缓解方法？"
+  },
+  {
+    "splitter_name": "SentenceWindow(window=5)",
+    "num_chunks": 3,
+    "split_time": 0.0,
+    "index_time": 0.5,
+    "query_time": 4.47,
+    "answer": "预测性维护能显著降低工厂的设备非计划停机时间（减少50%以上）、维护成本（降低25%至30%），并延长设备使用寿命（提升20%至40%）。",
+    "context_contains_answer": true,
+    "num_source_nodes": 3,
+    "config": {
+      "window_size": 5
+    },
+    "question": "预测性维护能给工厂带来什么收益？"
+  }
+]

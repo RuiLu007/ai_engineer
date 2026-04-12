@@ -1,0 +1,20 @@
+[
+  {
+    "file_name": "scanned_document.png",
+    "num_text_blocks": 32,
+    "avg_confidence": 0.9792,
+    "text_preview": "www.997788.com\n登机牌\nBOARDING PASS\n舱位CLASS\n序号 SERIAL NO.\n座位号\nSEAT NO\n航班FLIGHT\n日期\nDATE\nMU 2379\n03DEC\nW\n035\n始发地\nFROM\n登机口\nGATE\n登机时间BDT\n目的地TO\n福州\nTAIYUAN\nG11\nFUZHOU\n身份识别IDNO.\n姓名NAME\nZHANGQIWEI\n票号TKTNO.\n张祺伟\n票"
+  },
+  {
+    "file_name": "scene.png",
+    "num_text_blocks": 7,
+    "avg_confidence": 0.9806,
+    "text_preview": "Welcome to Beijing\nPopulation: 21.54 million\nArea: 16,410 km2\nSpeed Limit 60\nLibrary\nSchool Zone Ahead\nOpen 9:00-21:00"
+  },
+  {
+    "file_name": "screenshot.png",
+    "num_text_blocks": 16,
+    "avg_confidence": 0.9758,
+    "text_preview": "File Edit View Help\nDashboard > Settings > User Profile\nUser Information\nName: Zhang Wei\nEmail: zhangwei@example.com\nRole: Administrator\nDepartment Engineering\nLast Login: 2025-04-10 14:30:00\nSyste m "
+  }
+]
